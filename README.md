@@ -22,9 +22,10 @@
 
 임의로 뽑은 숫자 18을 최대공약수 알고리즘을 사용했을 때 최대 반복 횟수를 사용한 숫자는 11이다. 최대 반복 횟수를 사용한 수를 다시 알고리즘을 돌려본다면 이렇게 나온다. 
 
-<img width="398" height="104" alt="image" src="https://github.com/user-attachments/assets/821afe40-bfdc-4e4a-a301-8810eedf5a82" />
-<img width="429" height="290" alt="18-2" src="https://github.com/user-attachments/assets/bac60f3c-3e06-4dee-87b8-2cf53f091dda" />
-<img width="420" height="199" alt="18-3" src="https://github.com/user-attachments/assets/7bbd4ca4-b561-47b6-b81a-f28b66fdeac5" />
-<img width="389" height="140" alt="18-4" src="https://github.com/user-attachments/assets/967188a5-776c-4560-885b-66f91773c3e4" />
+<img width="715" height="438" alt="18-1" src="https://github.com/user-attachments/assets/b66e8dd0-0828-4394-b84a-85cc1b48e7ff" />
+<img width="429" height="290" alt="18-2" src="https://github.com/user-attachments/assets/8f4ddbf9-b05e-47fd-b928-e2d62bc0e6c6" />
+<img width="420" height="199" alt="18-3" src="https://github.com/user-attachments/assets/6a67f087-1cbd-41f1-871c-59777d43d74e" />
+<img width="389" height="140" alt="18-4" src="https://github.com/user-attachments/assets/49784d3e-06e9-46d6-90ee-eedb5a4751a2" />
+
 
 즉 최대공약수를 찾는 알고리즘의 시간복잡도는 [최선O(1), 평균log(n), 최악log(n) = 피보나치 역순] 을 갖는다.
