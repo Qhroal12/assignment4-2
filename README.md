@@ -28,4 +28,18 @@
 <img width="389" height="140" alt="18-4" src="https://github.com/user-attachments/assets/49784d3e-06e9-46d6-90ee-eedb5a4751a2" />
 
 
-즉 최대공약수를 찾는 알고리즘의 시간복잡도는 [최선O(1), 평균log(n), 최악log(n) = 피보나치 역순] 을 갖는다.
+즉 최대공약수를 찾는 알고리즘의 시간복잡도는 피보나치 수를 찾는 함수가 반복문일때 [최선O(n), 평균O(n), 최악O(n) = 피보나치 역순] 을 갖는다.
+
+피보나치 수열이 재귀함수 일때는 상황이 크게 달라진다. 피보나치 수열은 f(n) = f(n-1) + f(n-2)의 수를 가지기 때문에 이를 재귀함수로 표현하면
+![fi](https://github.com/user-attachments/assets/8435696b-a1ed-4dc7-9317-132c56903881)
+2^n승의 반복을 하게 된다. 시간 복잡도의 BigO는 O(2^n)이 되며 최대공약수를 찾는 함수의 시간복잡도인 O(n)의 영향을 받긴 하지만
+크기 정도가 엄청 다르기 때문에 영향을 그다지 받지 못한다.
+<img width="205" height="74" alt="10" src="https://github.com/user-attachments/assets/fbc1798f-d726-4a04-a5f6-e76eede39266" />
+<img width="131" height="55" alt="20" src="https://github.com/user-attachments/assets/a232c033-75f1-458e-bee5-1abf67847001" />
+<img width="181" height="59" alt="30" src="https://github.com/user-attachments/assets/4160aa89-fd43-4cc2-a43e-12217aacfaae" />
+<img width="149" height="57" alt="40" src="https://github.com/user-attachments/assets/fd41213a-3df0-4af9-a957-f0f08ded68f6" />
+<img width="143" height="58" alt="45" src="https://github.com/user-attachments/assets/944b9385-1312-49fc-9ee1-787021b971cd" />
+
+다음 식에서 n을 10,20,30,40,45를 넣었을 때의 값이며 수가 커질 때마다 기하급수적으로 시간이 늘어나는 것을 볼 수 있다.
+
+
